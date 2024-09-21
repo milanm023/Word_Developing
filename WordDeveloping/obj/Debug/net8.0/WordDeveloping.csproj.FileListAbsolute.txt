@@ -1,0 +1,14 @@
+/Users/milanm/Code/Word_Developing/WordDeveloping/bin/Debug/net8.0/WordDeveloping
+/Users/milanm/Code/Word_Developing/WordDeveloping/bin/Debug/net8.0/WordDeveloping.deps.json
+/Users/milanm/Code/Word_Developing/WordDeveloping/bin/Debug/net8.0/WordDeveloping.runtimeconfig.json
+/Users/milanm/Code/Word_Developing/WordDeveloping/bin/Debug/net8.0/WordDeveloping.dll
+/Users/milanm/Code/Word_Developing/WordDeveloping/bin/Debug/net8.0/WordDeveloping.pdb
+/Users/milanm/Code/Word_Developing/WordDeveloping/obj/Debug/net8.0/WordDeveloping.GeneratedMSBuildEditorConfig.editorconfig
+/Users/milanm/Code/Word_Developing/WordDeveloping/obj/Debug/net8.0/WordDeveloping.AssemblyInfoInputs.cache
+/Users/milanm/Code/Word_Developing/WordDeveloping/obj/Debug/net8.0/WordDeveloping.AssemblyInfo.cs
+/Users/milanm/Code/Word_Developing/WordDeveloping/obj/Debug/net8.0/WordDeveloping.csproj.CoreCompileInputs.cache
+/Users/milanm/Code/Word_Developing/WordDeveloping/obj/Debug/net8.0/WordDeveloping.dll
+/Users/milanm/Code/Word_Developing/WordDeveloping/obj/Debug/net8.0/refint/WordDeveloping.dll
+/Users/milanm/Code/Word_Developing/WordDeveloping/obj/Debug/net8.0/WordDeveloping.pdb
+/Users/milanm/Code/Word_Developing/WordDeveloping/obj/Debug/net8.0/WordDeveloping.genruntimeconfig.cache
+/Users/milanm/Code/Word_Developing/WordDeveloping/obj/Debug/net8.0/ref/WordDeveloping.dll
