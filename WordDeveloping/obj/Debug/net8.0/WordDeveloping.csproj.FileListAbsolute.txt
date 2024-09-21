@@ -12,3 +12,4 @@
 /Users/milanm/Code/Word_Developing/WordDeveloping/obj/Debug/net8.0/WordDeveloping.pdb
 /Users/milanm/Code/Word_Developing/WordDeveloping/obj/Debug/net8.0/WordDeveloping.genruntimeconfig.cache
 /Users/milanm/Code/Word_Developing/WordDeveloping/obj/Debug/net8.0/ref/WordDeveloping.dll
+/Users/milanm/Code/Word_Developing/WordDeveloping/obj/Debug/net8.0/WordDeveloping.sourcelink.json
