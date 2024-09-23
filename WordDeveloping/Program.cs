@@ -10,10 +10,8 @@ internal class Program
     {
         while (true)
         {
-            string? input = Console.ReadLine();
-#pragma warning disable CS8602 // Dereference of a possibly null reference.
+            string input = Console.ReadLine();
             string[] inputArray = input.Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries).ToArray();
-#pragma warning restore CS8602 // Dereference of a possibly null reference.
             string command = inputArray[0];
             if (Equals(input, "End"))
             {
@@ -43,18 +41,13 @@ internal class Program
                 }
             }
         }
-
-
-
     }
 
     public static void Upgrade(char letter)
     {
         int n = letter + 1;
         char newLetter = (char)n;
-#pragma warning disable CS8602 // Dereference of a possibly null reference.
         output = output.Replace(letter, newLetter);
-#pragma warning restore CS8602 // Dereference of a possibly null reference.
     }
     public static void Remove(string substring)
     {
