@@ -66,15 +66,21 @@ internal class Program
     public static void FindIndexes(char letter)
     {
 #pragma warning disable CS8602 // Dereference of a possibly null reference.
-        for (int i = 0; i < output.Length; i++)
+        if (!output.Contains(letter))
         {
-            if (output[i] == letter)
-            {
-                int index = output[i];
-                Console.Write($"{index} ");
-            }
+            Console.WriteLine("None");
         }
-        Console.WriteLine();
+        else
+        {
+            for (int i = 0; i < output.Length; i++)
+            {
+                if (output[i] == letter)
+                {
+                    Console.Write($"{i} ");
+                }
+            }
+            Console.WriteLine();
+        }
 #pragma warning restore CS8602 // Dereference of a possibly null reference.
 
     }
