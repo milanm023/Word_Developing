@@ -65,8 +65,8 @@ internal class Program
 
     public static void FindIndexes(char letter)
     {
-#pragma warning disable CS8602 // Dereference of a possibly null reference.
-        if (!output.Contains(letter))
+
+  if (!output.Contains(letter))
         {
             Console.WriteLine("None");
         }
@@ -81,7 +81,6 @@ internal class Program
             }
             Console.WriteLine();
         }
-#pragma warning restore CS8602 // Dereference of a possibly null reference.
 
     }
 }
