@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 internal class Program
 {
-    public static string? output;
+    public static string output = string.Empty;
     private static void Main(string[] args)
     {
         while (true)
@@ -58,15 +58,16 @@ internal class Program
     }
     public static void Remove(string substring)
     {
-#pragma warning disable CS8602 // Dereference of a possibly null reference.
-
-#pragma warning restore CS8602 // Dereference of a possibly null reference.
+        if (output.Contains(substring))
+        {
+            output = output.Replace(substring, string.Empty);
+        }
     }
 
     public static void FindIndexes(char letter)
     {
 
-  if (!output.Contains(letter))
+        if (!output.Contains(letter))
         {
             Console.WriteLine("None");
         }
